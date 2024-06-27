@@ -6,7 +6,6 @@ Created on Wed May 22 17:15:34 2024
 @author: gnevins
 """
 
-
 import pandas as pd
 import numpy as np
 import pybaseball as pyb
@@ -16,7 +15,6 @@ import requests
 from bs4 import BeautifulSoup
 
                                                              
-
 all_data = pyb.pitching_stats(start_season=2021,end_season=2024,qual=0)
 
 rodon_data_pybaseball = all_data.query("Name == 'Carlos Rodon'")
